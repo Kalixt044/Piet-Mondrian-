@@ -1,0 +1,125 @@
+<DOCTYPE>
+<html lang="es">
+<head> 
+<title>PMondria </title>
+
+<style type="text/css">
+ body.piet {background-color:ECF0F1;
+ }
+ h1.piet {color: red; 
+ 	font-size: 30px;
+ 	display: block;
+ 	width: 150px auto;
+ 	padding:15px;
+ 	text-align:center;}
+
+ div.piet {
+ 	background-color:teal;
+ 	color: red; 
+ 	font-size: 12px;
+ 	color: orange;
+ 	width: 150px auto;
+ 	padding:25px;
+ 	text-align: justify;}	
+
+h2 	{background-color:#82E0AA;
+	color: green; 
+ 	font-size: 8;
+ 	display: block;
+ 	width: 90px auto;
+ 	padding:15px;
+ 	text-align:center;}
+ 	 <meta name="wiewport" content="width=device-width, initial-scale=1">
+ 
+</style>
+
+</head>
+<body class="piet">
+<h1 class="piet"> De Stijl <h1>
+<div class="piet"> Fue un Grupo Artistico Nederlandes, conformado por Pintores, arquitectos, disenhadores, en 1917 justo despues de la Primer Guerra Mundial. El pintor Theo van Doesburg creo una revista con el mismo nombre del movimiento artistico "DE Stijl" en donde se propone difundir las ideas del grupo; tambien conocido como la corriente NeoPlasticismo la esta influenciada por la filosofia Oriental del minimalismo, el grupo deside representar la realidad a traves de formas simples y colores primarios, el Pintor Piet Mondria ejemplo de ello experimenta con lineas verticales y horizontales y tendria mas tarde diferencias conceptuales con su colega Theo Van Doesburg por integrar lineas diagonales a sus obras, lo que da cuenta de alto sentido estetico y conceptual que estaban desarrollando.<br></br> De Stijl logro tanta fuerza con su movimiento que inspiro movimientos artisticos como la Bauhaus; esto una vez se trasladara como docente Gerrit Rietveld (La Silla Roja Azul) siendo reconocido por su aporte a la identidad Bauhaus    </div>
+
+<canvas id="myCanvas" width="250" height="250"
+style="border:1px solid #c3c3c3;">
+Your browser does not support the canvas element.
+</canvas>
+
+<script class="code">
+var canvas = document.getElementById("myCanvas");
+var ctx = canvas.getContext("2d");
+
+ctx.fillStyle = "white";
+ctx.fillRect(0,0,80,30); 
+ctx.fillStyle = "red";
+ctx.fillRect(38,34,108,112);
+
+ctx.fillStyle = "red";
+ctx.fillRect(225,176,26,77);
+ctx.fillStyle = "blue";
+ctx.fillRect(145,176,86,56);
+
+ 
+ctx.fillStyle = "yellow";
+ctx.fillRect(0,176,38,76);
+ctx.globalCompositeOperation='source-over';
+ctx.fillStyle = "black";
+ctx.fillRect(33,30,6,205); //firth V //
+ctx.fillStyle = "black";
+ctx.fillRect(60,15,6,20); 
+ctx.fillStyle = "black";
+ctx.fillRect(10,176,250,6); //Linea negra BaseYellow // 
+ctx.fillStyle = "black";
+ctx.fillRect(37,145,56,62);//CuadradoNegroY//
+ctx.fillStyle = "black";
+ctx.fillRect(90,210,54,20);
+ctx.fillStyle = "black";
+ctx.fillRect(40,145,188,6);
+ctx.fillStyle = "black";
+ctx.fillRect(38,200,50,6);
+ctx.fillStyle = "black";
+ctx.fillRect(37,207,108,6); //MiddleLineBlue
+ctx.fillStyle = "black";
+ctx.fillRect(10,30,220,6) //Firts Line  topup//
+ctx.fillStyle = "black";
+ctx.fillRect(17,80,18,6); //Middle Line//  
+ctx.fill();
+
+
+ctx.fillStyle = "black";
+ctx.fillRect(0,0,0,0);
+ctx.fillStyle = "yellow";
+ctx.fillRect(144,0,87,33);
+ctx.fillStyle = "yellow";
+ctx.fillRect(144,36,88,50);
+ctx.globalCompositeOperation='source-over';
+ctx.fillStyle = "black";
+ctx.fillRect(144,7,6,222);
+ctx.fillStyle = "black";
+ctx.fillRect(225,10,6,233); 
+ctx.fillStyle = "black";
+ctx.fillRect(90,148,6,93); //MiddleRW
+ctx.fillStyle = "black";
+ctx.fillRect(146,80,80,6); //topMiddlewy
+ctx.fillStyle = "black";
+ctx.fillRect(182,80,6,70);//MiddleWy
+ctx.fillStyle = "black";
+ctx.fillRect(95,228,132,6);
+
+ctx.fill();
+
+ctx.fillstyle = "black";
+ctx.fillRect(40,138,192,); //LineBaseRed
+ctx.fillStyle = "black";
+ctx.fillRect(40,17,104,30); //LineBaseWR// 
+
+ctx.fillStyle = "red";
+ctx.fillRect(0,0,20,20);
+ctx.globalCompositeOperation='source-over';
+ctx.fill();
+
+
+
+</script>
+<h2>Composicion rojo, amarillo, azul, blanco y negro . Oleo sobre lienzo Piet Mondrian 1921<br> .Html Script klt044 2022.</h2>
+</body>
+
+</html>
